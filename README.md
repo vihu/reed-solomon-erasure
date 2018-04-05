@@ -1,11 +1,10 @@
-# ReedSolomonErasure
+reed_solomon_erasure
+=====
 
-**TODO: Add description**
+Elixir rust bindings for reed-solomon-erasure coding
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `reed_solomon_erasure` to your list of dependencies in `mix.exs`:
+Install
+-----
 
 ```elixir
 def deps do
@@ -15,7 +14,14 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/reed_solomon_erasure](https://hexdocs.pm/reed_solomon_erasure).
+Build
+-----
+
+$ mix deps.get; mix compile
+
+References
+-----
+
+* [reed-solomon-rs](https://github.com/mersinvald/reed-solomon-rs)
+* [rustler](https://github.com/hansihe/rustler)
 
