@@ -1,0 +1,16 @@
+[package]
+name = "reed_solomon_erasure"
+version = "0.1.0"
+authors = ["Rahul Garg <vihu89@gmail.com>"]
+
+[lib]
+name = "reed_solomon_erasure"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = { git = "https://github.com/hansihe/rustler", branch = "remove_nif_from_types"}
+rustler_codegen = { git = "https://github.com/hansihe/rustler", branch = "remove_nif_from_types"}
+bufstream = "0.1.2"
+lazy_static = "1.0.0"
+reed-solomon = "0.2.1"
